@@ -1,0 +1,6 @@
+<%-- any content can be specified here e.g.: --%>
+<%@ page pageEncoding="UTF-8" %>
+
+<div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2)">
+    © José David Ortiz Gómez, 2020-2021 josedavid.ortiz129@alu.uhu.es
+</div>

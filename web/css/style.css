@@ -1,0 +1,168 @@
+/*Variables útiles*/
+:root {
+  --color-principal: #fad652; /*color por defecto del logo*/
+}
+
+/*Estilo del div de iconos sociales*/
+.cabecera-rrss{
+    height: 50px;
+    background-color: #272f32;
+    color: white;
+}
+
+.iconos-rsss{
+    margin-right: 5%;
+    float:right;
+}
+
+.cabecera-rrss ion-icon {
+    padding: 15px 5px;
+    font-size: 20px;
+}
+
+.cabecera-rrss ion-icon:hover {
+    color: var(--color-principal);
+}
+
+.cabecera-rrss a{
+    color: inherit;
+}
+
+/*Estilo cabecera principal-logo*/
+
+.cabecera-principal{
+    display:block;
+    background-color: #333;
+    height: auto;
+    padding: 20px;
+}
+
+.logo-principal{
+    margin-left: 15%;
+    width: 200px;
+    height: auto;
+}
+
+/*Menu de navegación*/
+
+.navbar{
+    font-family: verdana;
+    height: 50px;
+    padding-left: 15%;
+    background-color: #272f32;
+}
+
+.nav-link{
+    margin: 20px;
+    color: var(--color-principal);
+}
+
+.nav-link:hover{
+    color: white;
+}
+
+.navbar-toggler{
+
+    font-size: 30px;
+    text-align: center;
+    color: var(--color-principal);
+}
+.navbar-toggler:focus{
+    outline: none;
+}
+
+.activo{
+    color: white;
+}
+
+/*Widget principal*/
+.carousel-principal{
+    width: auto;
+    height: 650px;
+}
+
+.carousel-inner img{
+    background-size: cover;
+}
+
+.titulo-carousel-principal{
+    
+    background-color: var(--color-principal); 
+    color: black;
+    position:absolute; 
+    top:40%; 
+    left: 10% 
+}
+
+/* WIDGETS PAGINA PRINCIPAL RESTO*/
+.widget-resto{
+    margin-top: 20px;
+    margin-bottom: 50px;
+
+}
+
+.letrero-widgets{
+    width: 27%;
+    background-color: var(--color-principal);
+}
+
+.hr-widgets{
+    margin-top: -8px;
+    height: 1px;
+    background-color: red;
+}
+
+/*Login*/
+.H1LOGIN{
+    margin-top: 5%;
+    text-align: center;
+}
+.login{
+    
+    margin-left: 35%;
+    margin-right: 35%;
+    margin-bottom: 10%
+}
+
+.submit-login{
+    margin-top: 10px;
+}
+
+/*VER ARTICULO*/
+.tit-articulo{
+    margin-top: 20px;
+    font-size: 50px;
+     text-align: center;
+}
+
+.div-cuerpoart{
+    margin-left: 15%;
+    font-size: 20px;
+    margin-right: 15%;
+}
+
+/*Comentarios*/
+.div-comentarios{
+    margin-top: 5%;
+    margin-left: 15%;
+    margin-right: 10%;
+}
+
+
+@media (max-width: 575.98px) { 
+    .nav-link{
+        margin: 0px;
+    }
+
+    .prueba{
+        border: solid 10px black;
+    }
+}
+
+@media (max-width: 767.98px) {  }
+
+@media (max-width: 991.98px) {  }
+
+@media (max-width: 1199.98px) {  }
+
+

@@ -1,0 +1,11 @@
+<%-- any content can be specified here e.g.: --%>
+<%@ page pageEncoding="UTF-8" %>
+
+<div style="align-content: flex-start"><c:if test="${requestScope.msg!=null}"><p>${requestScope.msg}</p></c:if></div>
+<div class="iconos-rsss">
+    
+    <a href="https://www.instagram.com/catchingthespeed/" target="_blank"><ion-icon name="logo-instagram"></ion-icon></a>
+    <a href="https://twitter.com/CatchingtheS"><ion-icon name="logo-twitter" target="_blank"></ion-icon></a>
+    <a href="https://www.facebook.com/Catching-the-Speed-106859281219406/" target="_blank"><ion-icon name="logo-facebook"></ion-icon></a>
+    <a href="https://www.youtube.com/channel/UC0W_7gBLsRL-Sy-kZN7loSA" target="_blank"><ion-icon name="logo-youtube"></ion-icon></a>
+</div>
